@@ -1,0 +1,57 @@
+.divContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.divBox {
+    width: 18%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imgContainer {
+    height: 280px;
+    overflow: hidden;
+}
+.imgPoster {
+    width: 100%;
+}
+
+.movieInfo {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.genre {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: -100px;
+    color: #272727;
+}
+
+.title {
+    margin-top: 5px;
+    color: rgb(8, 8, 8);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: -5px;
+    text-align: left;
+}
+
+.avaPreview {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

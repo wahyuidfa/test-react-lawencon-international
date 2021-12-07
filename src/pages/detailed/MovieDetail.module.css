@@ -1,0 +1,91 @@
+.bannerContainer {
+    width: 100%;
+    height: 500px;
+    /* overflow: hidden; */
+    position: relative;
+    background-color:black;
+   
+  }
+
+  .imgBanner {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: 50% 40%;
+    opacity: 0.6;
+   }
+
+   
+h1{
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .bannerInfo {
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 35%;
+   padding: 20px 0px;
+   
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  span {
+    margin: 5px 10px;
+  }
+  
+  .bannerText {
+    color: #fff;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .buttonBanner {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .trailer {
+    background-color: #FE024E;
+    border: 2px solid #FE024E;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  
+  }
+  
+  .trailer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .watchlist {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+      outline: none;
+  }
+  
+  .nameChar {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+
+  .avaPreview {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
